@@ -32,9 +32,14 @@ button{
     height: 50px;
     width: 200px;
     border-radius: 40px;
-    background-image: linear-gradient( to left,skyblue,purple);
+    background-image: linear-gradient( to left,#6a02748f,#2786eb8f);
     border: 0px;
     outline: 0px;
+    transform: translateY(20px);
+    transition: 0.5s all ease-out;
+}
+button:hover{
+    transform: translateY(0px);
 }
  a {
     color: #ffffff;

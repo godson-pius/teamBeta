@@ -97,7 +97,7 @@ section .input button{
     outline: none;
     border: none;
     color: white;
-    background:linear-gradient(#6a02748f,#2786eb8f);
+    background:linear-gradient(to left, #6a02748f,#2786eb8f);
     transform: translateY(20px);
     transition: 0.5s all ease-out;
     
