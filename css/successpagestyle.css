@@ -1,6 +1,6 @@
 body{
     background-image:url(../images/Website-Design-Background.webp) ;
-    background-size: 1537px 720px;
+    background-size: cover;
     padding: 0px;
     margin: 0px;
 }
@@ -12,20 +12,20 @@ body{
     text-align: center;
 }
 .img1{
-   width:410px ;
+   width:340px ;
     height: 80px;
     margin-top: 30px;
 }
 .img2{
     width:410px ;
-    height: 300px; 
+    height: 350px; 
 }
 .container p{
     color: #ffffff;
     font-family: Arial;
     text-decoration: bold;
     padding-top: 30px;
-    font-size: 21px;
+    font-size: 18px;
 }
 button{
     margin-top: 70px;
@@ -35,8 +35,13 @@ button{
     background-image: linear-gradient( to left,skyblue,purple);
     border: 0px;
     outline: 0px;
+    transform: translateY(10px);
+    transition: all 0.5s ease-out;
 }
- a {
+button:hover{
+    transform: translateY(0px);
+}
+a {
     color: #ffffff;
     font-size: 25px;
     text-decoration: none;
