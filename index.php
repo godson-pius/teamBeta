@@ -49,7 +49,7 @@
         <li>JAVASCRIPT</li>
         <li>PHP</li>
     </ul>
-    <button>Pay for Course</button>
+    <a href="login.php?id=1"><button>Pay for Course</button></a>
 
     
  </div>
@@ -71,7 +71,7 @@
         <li>PROTOTYPING</li>
         <li>WIRE FRAMING</li>
     </ul>
-    <button>Pay for Course</button>
+    <a href="login.php?id=2"><button>Pay for Course</button></a>
 
     
  </div> 
@@ -92,7 +92,7 @@
         <li>WINDOWS CONFIGURATION</li>
         <li>SERVER CONFIGURATION</li>
     </ul>
-    <button>Pay for Course</button>
+    <a href="login.php?id=3"><button>Pay for Course</button></a>
 
     
  </div>    

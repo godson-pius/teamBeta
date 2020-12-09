@@ -59,6 +59,28 @@ section .content{
     background-position: center;
     
 }
+.content .svg2{
+    
+    border-radius: 100%;
+    width: 10%;
+    height: 20%;
+    margin-left: 45%;
+    background-image: url(../images/4.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.content .svg3{
+    
+    border-radius: 100%;
+    width: 10%;
+    height: 20%;
+    margin-left: 45%;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
 
 .content p{
     text-align: center;
@@ -79,7 +101,7 @@ section .input{
 section .input input{
     width: 50%;
     height: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     background-color: transparent;
     outline: none;
     border: none;
@@ -113,4 +135,18 @@ section .input input:active{
     transform-style: preserve-3d;
     transform: translateX(20px);
     transition: 0.7s all ease;
+}
+.sign{
+    font-size: 18px;
+    font-weight: bold;
+   
+    color: white;
+}
+a{
+    margin-left: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    color: purple;
+    text-decoration: none;
+    font-style: italic;
 }

@@ -1,0 +1,106 @@
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+   
+}
+section .img{
+    width: 100%;
+    height: 100%;
+    
+}
+section .img img{
+    width: 100%;
+    height: 100%;
+    filter: saturate(2);
+    filter: contrast(1.4);
+    filter: blur(1.5);
+    filter: brightness(0.2);    
+}
+section .content{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    
+    margin-top: 2%;
+    
+}
+.content .logo{
+    width: 10%;
+    overflow: hidden;
+    margin-left: 45%;
+    
+
+}
+.content .logo img{
+    height: 100%;
+    width: 100%;
+}
+.content .svg{
+    
+    border-radius: 100%;
+    width: 10%;
+    height: 20%;
+    margin-left: 45%;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+input[type=submit]{
+    width: 20%;
+    height:6%;
+    margin:25px 35%;
+    padding: 10px 10px;
+    border-radius: 300px;
+    outline: none;
+    border: none;
+    color: white;
+    background:linear-gradient(#6a02748f,#2786eb8f);
+    transform: translateY(20px);
+    transition: 0.5s all ease-out;
+    
+}
+
+input[type=submit]:hover{
+    transform: translateY(0px);
+    
+    box-shadow: 2px 3px 30px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+}
+form{
+    width: 40%;
+    height:450px;
+    margin-left: 30%;
+    border: 2px solid white;
+    padding-top: 3%;
+    transform: translatex(20px);
+    transition: 0.2s all linear;
+}
+input[type=text],input[type=email],input[type=password],input[type=file]{
+    margin-top: 15px;
+    background-color: transparent;
+    outline: none;
+    border:none;
+    font-size: 18px;
+    color:white;
+    margin-left: 2%; 
+    
+ 
+}
+i{
+    color: white;
+    font-size: 20px !important;
+    margin-left: 5%;
+}
+.carrier{
+    border-radius: 30px;
+    border: 1px solid white;
+    width: 70%;
+    height: 50px;
+    margin-left: 13%;
+    margin-top: 3%;
+}
