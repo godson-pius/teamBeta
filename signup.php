@@ -17,7 +17,7 @@
             <div class="logo"><a href=""><img src="images/logo.png" alt=""></a>
             
             </div>
-            <form method="post" action="signup_handler.php">
+            <form method="post" action="signup_handler.php" enctype="multipart/form-data">
             <div class="input">
             <div class="carrier"><i class="fa fa-user"></i><input type="text" name="fullname" id="fullname" placeholder="enter your fullname" required></div>
                 <div class="carrier"><i class="fa fa-envelope"></i><input type="email" name="email" id="email" placeholder="Username Or Email" required></div>

@@ -11,10 +11,10 @@
     <header>
        <a href="" >Aptech Course<span class="payment">Payment.</span></a>
         <ul class="nav">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Sign in</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="signup.php">Sign in</a></li>
     </ul>
 
     </header>
@@ -49,7 +49,7 @@
         <li>JAVASCRIPT</li>
         <li>PHP</li>
     </ul>
-    <a href="login.php?id=1"><button>Pay for Course</button></a>
+    <a href="nextpage.php?id=1"><button>Pay for Course</button></a>
 
     
  </div>
@@ -71,7 +71,7 @@
         <li>PROTOTYPING</li>
         <li>WIRE FRAMING</li>
     </ul>
-    <a href="login.php?id=2"><button>Pay for Course</button></a>
+    <a href="nextpage.php?id=2"><button>Pay for Course</button></a>
 
     
  </div> 
@@ -92,7 +92,7 @@
         <li>WINDOWS CONFIGURATION</li>
         <li>SERVER CONFIGURATION</li>
     </ul>
-    <a href="login.php?id=3"><button>Pay for Course</button></a>
+    <a href="nextpage.php?id=3"><button>Pay for Course</button></a>
 
     
  </div>    
