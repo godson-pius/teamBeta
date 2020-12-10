@@ -11,6 +11,7 @@ body{
     height: fit-content;
     text-align: center;
 }
+
 .img1{
    width:340px ;
     height: 80px;
@@ -45,4 +46,14 @@ a {
     color: #ffffff;
     font-size: 25px;
     text-decoration: none;
+}
+.profile{
+    border-radius: 100%;
+    width: 30%;
+    height: 100px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+    margin-left:30% ;
+    margin-top: 2%;
 }

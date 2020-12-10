@@ -22,8 +22,8 @@
             <div class="carrier"><i class="fa fa-user"></i><input type="text" name="fullname" id="fullname" placeholder="enter your fullname" required></div>
                 <div class="carrier"><i class="fa fa-envelope"></i><input type="email" name="email" id="email" placeholder="Username Or Email" required></div>
                 <div class="carrier"><i class="fa fa-lock"></i><input type="password" name="password" id="password" placeholder="Password" required></div>
-                <div class="carrier"><i class="fa fa-key"></i><input type="password" name="confpassword" id="password2" placeholder="Confirm Password" required></div>
-                <div class="carrier"><i class="fa fa-user"></i><input type="file" name="profile" id="profile" placeholder="choose your photo" required></div>
+                <div class="carrier"><i class="fa fa-lock"></i><input type="password" name="confpassword" id="password2" placeholder="Confirm Password" required></div>
+                <div class="carrier2"><i class="fa fa-user"></i><input type="file" name="profile" class="inp" id="profile" placeholder="choose your photo" required></div>
                 <input type="submit" value="SIGN UP" name="submit">
             </div>
             </form>

@@ -91,6 +91,7 @@ input[type=text],input[type=email],input[type=password],input[type=file]{
     
  
 }
+
 i{
     color: white;
     font-size: 20px !important;
@@ -98,9 +99,18 @@ i{
 }
 .carrier{
     border-radius: 30px;
-    border: 1px solid white;
     width: 70%;
     height: 50px;
     margin-left: 13%;
     margin-top: 3%;
+    border:hidden;
+    border-bottom: 1px solid white;
+}
+.carrier2{
+    display: flex;
+    margin-top: 2%;
+}
+.carrier2 i{
+    margin-top: 3%;
+    margin-left: 15%;
 }

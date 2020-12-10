@@ -1,3 +1,19 @@
+<?php
+require_once('../db/config.php');
+
+if(isset($_GET['id']))
+$id = $_GET['id'];
+
+$query = "SELECT *FROM students WHERE id = '$id'";
+$result = mysqli_query($conn,$query);
+if(mysqli_num_rows($result) > 0){
+  while($row = mysqli_fetch_assoc($result)){
+    $name = $row['fullname'];
+    $email =$row['email_address'];
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,7 +27,7 @@
     <form id="paymentForm">
         <div class="form-group">
             <label for="email">Email Address</label>
-            <input type="email" id="email-address" required />
+            <input type="email" id="email-address" required value="<?php echo $email;?>" readonly  />
         </div>
         <div class="form-group">
             <label for="amount">Amount</label>
